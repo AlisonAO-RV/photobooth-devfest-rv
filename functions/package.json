@@ -1,0 +1,52 @@
+{
+  "name": "io-photobooth-api",
+  "private": true,
+  "main": "lib/index.js",
+  "engines": {
+    "node": "14"
+  },
+  "scripts": {
+    "build": "tsc",
+    "deploy": "firebase deploy --only functions",
+    "dev": "tsc -w & firebase emulators:start --only functions",
+    "lint": "eslint --ext .js,.ts .",
+    "lint:fix": "eslint --fix --ext .js,.ts .",
+    "logs": "firebase functions:log",
+    "serve": "npm run build && firebase emulators:start --only functions",
+    "shell": "npm run build && firebase functions:shell",
+    "start": "npm run shell",
+    "test:coverage": "jest --collect-coverage",
+    "test:ts": "mocha -r ts-node/register --reporter spec tests/**/*.js",
+    "test:upload": "gsutil cp testdata/upload.jpeg gs://io-photobooth-devfest-rv.appspot.com/uploads",
+    "test": "jest",
+    "watch": "tsc --watch"
+  },
+  "dependencies": {
+    "firebase-admin": "^11.11.0",
+    "firebase-functions": "^4.5.0",
+    "mustache": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.7",
+    "@types/mustache": "^4.2.4",
+    "@typescript-eslint/eslint-plugin": "^6.9.1",
+    "@typescript-eslint/parser": "^6.9.1",
+    "@types/node": "^20.8.10",
+    "eslint": "^8.52.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-plugin-import": "^2.29.0",
+    "eslint-plugin-jest": "^27.6.0",
+    "jest": "^29.7.0",
+    "prettier": "~3.0.3",
+    "prettier-eslint": "~16.1.2",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "testPathIgnorePatterns": [
+      "lib"
+    ]
+  }
+}

@@ -1,0 +1,348 @@
+{
+    "@@locale": "pt",
+"landingPageHeading": "Bem-vindo ao Photo Booth do DevFest Rio Verde 2023",
+"@landingPageHeading": {
+"description": "Título exibido na página inicial."
+},
+"landingPageSubheading": "Tire uma foto e compartilhe-a com a comunidade!",
+"@landingPageSubheading": {
+"description": "Subtítulo exibido na página inicial."
+},
+"landingPageTakePhotoButtonText": "Começar",
+"@landingPageTakePhotoButtonText": {
+"description": "Texto do botão exibido na página inicial que navega para o photo booth."
+},
+"footerMadeWithText": "Feito com ",
+"@footerMadeWithText": {
+"description": "Texto exibido no rodapé que menciona as tecnologias usadas para construir o app."
+},
+"footerMadeWithFlutterLinkText": "Flutter",
+"@footerMadeWithFlutterLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página do Flutter"
+},
+"footerMadeWithFirebaseLinkText": "Firebase",
+"@footerMadeWithFirebaseLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página do Firebase"
+},
+"footerGoogleIOLinkText": "Google I\u2215O",
+"@footerGoogleIOLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página do Google I\u2215O."
+},
+"footerCodelabLinkText": "Codelab",
+"@footerCodelabLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página do Codelab."
+},
+"footerHowItsMadeLinkText": "Como foi Feito",
+"@footerHowItsMadeLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página Como foi Feito."
+},
+"footerTermsOfServiceLinkText": "Termos de Serviço",
+"@footerTermsOfServiceLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página de Termos de Serviço."
+},
+"footerPrivacyPolicyLinkText": "Política de Privacidade",
+"@footerPrivacyPolicyLinkText": {
+"description": "Texto do link exibido no rodapé que navega para a página de Política de Privacidade."
+},
+"sharePageHeading": "Compartilhe sua foto com a comunidade!",
+"@sharePageHeading": {
+"description": "Título exibido na página de compartilhamento."
+},
+"sharePageSubheading": "Compartilhe sua foto com a comunidade!",
+"@sharePageSubheading": {
+"description": "Subtítulo exibido na página de compartilhamento."
+},
+"sharePageSuccessHeading": "Foto Compartilhada!",
+"@sharePageSuccessHeading": {
+"description": "Título exibido na página de compartilhamento após o compartilhamento bem-sucedido."
+},
+"sharePageSuccessSubheading": "Obrigado por usar nosso app Flutter web! Sua foto foi publicada neste URL único",
+"@sharePageSuccessSubheading": {
+"description": "Subtítulo exibido na página de compartilhamento após o compartilhamento bem-sucedido."
+},
+"sharePageSuccessCaption1": "Sua foto estará disponível nesse URL por 30 dias e depois será automaticamente excluída. Para solicitar a exclusão antecipada da sua foto, entre em contato com ",
+"@sharePageSuccessCaption1": {
+"description": "Primeira parte da legenda exibida no final da página de compartilhamento após o compartilhamento bem-sucedido."
+},
+"sharePageSuccessCaption2": "flutter-photo-booth@google.com",
+"@sharePageSuccessCaption2": {
+"description": "Segunda parte da legenda exibida no final da página de compartilhamento após o compartilhamento bem-sucedido."
+},
+"sharePageSuccessCaption3": " e certifique-se de incluir o seu URL único em sua solicitação.",
+"@sharePageSuccessCaption3": {
+"description": "Terceira parte da legenda exibida no final da página de compartilhamento após o compartilhamento bem-sucedido."
+},
+"sharePageRetakeButtonText": "Tirar nova foto",
+"@sharePageRetakeButtonText": {
+"description": "Texto do botão exibido na página de compartilhamento que navega de volta para o photo booth."
+},
+"sharePageShareButtonText": "Compartilhar",
+"@sharePageShareButtonText": {
+"description": "Texto do botão exibido na página de compartilhamento que abre um diálogo para compartilhar a foto tirada."
+},
+"sharePageDownloadButtonText": "Baixar",
+"@sharePageDownloadButtonText": {
+"description": "Texto do botão exibido na página de compartilhamento que baixa a foto tirada."
+},
+"socialMediaShareLinkText": "Acabei de tirar uma selfie no #IOPhotoBooth. Nos vemos no #GoogleIO!",
+"@socialMediaShareLinkText": {
+"description": "Texto que é inserido no link de compartilhamento das redes sociais."
+},
+"previewPageCameraNotAllowedText": "Você negou as permissões de câmera. Por favor, conceda acesso para usar o app.",
+"@previewPageCameraNotAllowedText": {
+"description": "Texto exibido quando o usuário nega a permissão da câmera."
+},
+"sharePageSocialMediaShareClarification1": "Se você escolher compartilhar sua foto nas redes sociais, ela estará disponível em um URL único por 30 dias e depois será automaticamente excluída. Fotos que não são compartilhadas não são armazenadas. Para solicitar a exclusão antecipada da sua foto, entre em contato com ",
+"@sharePageSocialMediaShareClarification1": {
+"description": "Primeira parte do texto exibido no final da página de compartilhamento que esclarece como as fotos são armazenadas no backend quando compartilhadas nas redes sociais."
+},
+"sharePageSocialMediaShareClarification2": "flutter-photo-booth@google.com",
+"@sharePageSocialMediaShareClarification2": {
+"description": "Segunda parte do texto exibido no final da página de compartilhamento que esclarece como as fotos são armazenadas no backend quando compartilhadas nas redes sociais."
+},
+    "sharePageSocialMediaShareClarification3": " e certifique-se de incluir seu URL único em sua solicitação.",
+"@sharePageSocialMediaShareClarification3": {
+    "description": "Terceira parte do texto exibido na parte inferior da página de compartilhamento que esclarece como as fotos são armazenadas no backend quando compartilhadas em redes sociais"
+},
+"sharePageCopyLinkButton": "Copiar",
+"@sharePageCopyLinkButton": {
+    "description": "Título do botão usado para copiar o link de compartilhamento."
+},
+"sharePageLinkedCopiedButton": "Copiado",
+"@sharePageLinkedCopiedButton": {
+    "description": "Título do botão usado para indicar que o link foi copiado."
+},
+"sharePageErrorHeading": "Estamos tendo problemas para processar sua imagem",
+"@sharePageErrorHeading": {
+    "description": "Título exibido na página de compartilhamento quando ocorre um erro."
+},
+"sharePageErrorSubheading": "Por favor, certifique-se de que seu dispositivo e navegador estão atualizados. Se este problema persistir, por favor, entre em contato com flutter-photo-booth@google.com.",
+"@sharePageErrorSubheading": {
+    "description": "Subtítulo exibido na página de compartilhamento quando ocorre um erro."
+},
+"shareDialogHeading": "Compartilhe sua foto!",
+"@shareDialogHeading": {
+    "description": "Título exibido no diálogo de compartilhamento."
+},
+"shareDialogSubheading": "Deixe todo mundo saber que você está no Google I\u2215O compartilhando sua foto e atualizando sua foto de perfil durante o evento!",
+"@shareDialogSubheading": {
+    "description": "Subtítulo exibido no diálogo de compartilhamento."
+},
+"shareErrorDialogHeading": "Ops!",
+"@shareErrorDialogHeading": {
+    "description": "Título exibido no diálogo de erro de compartilhamento."
+},
+"shareErrorDialogTryAgainButton": "Voltar",
+"@shareErrorDialogTryAgainButton": {
+    "description": "Título do botão exibido no diálogo de erro de compartilhamento usado para tentar novamente a operação de upload."
+},
+"shareErrorDialogSubheading": "Algo deu errado e não conseguimos carregar sua foto.",
+"@shareErrorDialogSubheading": {
+    "description": "Subtítulo exibido no diálogo de erro de compartilhamento."
+},
+"sharePageProgressOverlayHeading": "Estamos deixando sua foto perfeita com o Flutter! ",
+"@sharePageProgressOverlayHeading": {
+    "description": "Título exibido na sobreposição de progresso da página de compartilhamento."
+},
+"sharePageProgressOverlaySubheading": "Por favor, não feche esta aba.",
+"@sharePageProgressOverlaySubheading": {
+    "description": "Subtítulo exibido na sobreposição de progresso da página de compartilhamento."
+},
+"shareDialogTwitterButtonText": "Twitter",
+"@shareDialogTwitterButtonText": {
+    "description": "Texto do botão exibido no diálogo de compartilhamento que compartilha a foto no Twitter."
+},
+
+
+
+
+    "shareDialogFacebookButtonText": "Facebook",
+"@shareDialogFacebookButtonText": {
+    "description": "Texto do botão exibido no diálogo de compartilhamento que compartilha a foto no Facebook."
+},
+"photoBoothCameraAccessDeniedHeadline": "Acesso à câmera negado",
+"@photoBoothCameraAccessDeniedHeadline": {
+    "description": "Texto exibido no título da página do photo booth quando a permissão para acessar a câmera não é concedida"
+},
+"photoBoothCameraAccessDeniedSubheadline": "Para tirar uma foto, você deve permitir o acesso do navegador à sua câmera.",
+"@photoBoothCameraAccessDeniedSubheadline": {
+    "description": "Texto exibido no subtítulo da página do photo booth quando a permissão para acessar a câmera não é concedida"
+},
+"photoBoothCameraNotFoundHeadline": "Não conseguimos encontrar sua câmera",
+"@photoBoothCameraNotFoundHeadline": {
+    "description": "Texto exibido no título da página do photo booth quando a câmera não é encontrada"
+},
+"photoBoothCameraNotFoundSubheadline1": "Parece que seu dispositivo não tem uma câmera ou ela não está funcionando.",
+"@photoBoothCameraNotFoundSubheadline1": {
+    "description": "Texto exibido no primeiro subtítulo da página do photo booth quando a câmera não é encontrada"
+},
+"photoBoothCameraNotFoundSubheadline2": "Para tirar uma foto, por favor, visite o Photo Booth do I\u2215O em um dispositivo com câmera.",
+"@photoBoothCameraNotFoundSubheadline2": {
+    "description": "Texto exibido no segundo subtítulo da página do photo booth quando a câmera não é encontrada"
+},
+"photoBoothCameraErrorHeadline": "Ops! Algo deu errado",
+"@photoBoothCameraErrorHeadline": {
+    "description": "Texto exibido no título da página do photo booth quando ocorre um erro desconhecido"
+},
+"photoBoothCameraErrorSubheadline1": "Por favor, atualize seu navegador e tente novamente.",
+"@photoBoothCameraErrorSubheadline1": {
+    "description": "Texto exibido no primeiro subtítulo da página do photo booth quando ocorre um erro desconhecido"
+},
+"photoBoothCameraErrorSubheadline2": "Se o problema persistir, por favor, entre em contato com flutter-photo-booth@google.com",
+"@photoBoothCameraErrorSubheadline2": {
+    "description": "Texto exibido no segundo subtítulo da página do photo booth quando ocorre um erro desconhecido"
+},
+"photoBoothCameraNotSupportedHeadline": "Ops! Algo deu errado",
+"@photoBoothCameraNotSupportedHeadline": {
+    "description": "Texto exibido no título da página do photo booth quando a câmera não é suportada"
+},
+"photoBoothCameraNotSupportedSubheadline": "Por favor, certifique-se de que seu dispositivo e navegador estão atualizados.",
+"@photoBoothCameraNotSupportedSubheadline": {
+    "description": "Texto exibido no subtítulo da página do photo booth quando a câmera não é suportada"
+},
+"stickersDrawerTitle": "Adicionar Adereços",
+"@stickersDrawerTitle": {
+    "description": "Texto exibido na gaveta de adesivos como título"
+},
+"openStickersTooltip": "Adicionar Adereços",
+"@openStickersTooltip": {
+    "description": "Texto exibido na dica de ferramenta para o botão de abrir adesivos"
+},
+"retakeButtonTooltip": "Refazer",
+"@retakeButtonTooltip": {
+    "description": "Texto exibido na dica de ferramenta para o botão de refazer"
+},
+"clearStickersButtonTooltip": "Limpar Adereços",
+"@clearStickersButtonTooltip": {
+    "description": "Texto exibido na dica de ferramenta para o botão de limpar adesivos"
+},
+"charactersCaptionText": "Adicionar Amigos",
+"@charactersCaptionText": {
+    "description": "Texto exibido como legenda no layout de personagens"
+},
+"sharePageLearnMoreAboutTextPart1": "Saiba mais sobre ",
+"@sharePageLearnMoreAboutTextPart1": {
+    "description": "Parte 1 do texto exibido na página de compartilhamento que menciona tecnologias usadas para construir o aplicativo."
+},
+"sharePageLearnMoreAboutTextPart2": " e ",
+"@sharePageLearnMoreAboutTextPart2": {
+    "description": "Parte 2 do texto exibido na página de compartilhamento que menciona tecnologias usadas para construir o aplicativo."
+},
+"sharePageLearnMoreAboutTextPart3": " ou mergulhe diretamente no ",
+"@sharePageLearnMoreAboutTextPart3": {
+    "description": "Parte 3 do texto exibido na página de compartilhamento que menciona tecnologias usadas para construir o aplicativo."
+},
+"sharePageLearnMoreAboutTextPart4": "código fonte aberto",
+"@sharePageLearnMoreAboutTextPart4": {
+    "description": "Parte 4 do texto exibido na página de compartilhamento que menciona tecnologias usadas para construir o aplicativo."
+},
+    "goToGoogleIOButtonText": "Ir para o Google I/O",
+"@goToGoogleIOButtonText": {
+    "description": "Texto exibido no botão para navegar até o Google I/O"
+},
+"clearStickersDialogHeading": "Limpar todos os acessórios?",
+"@clearStickersDialogHeading": {
+    "description": "Título exibido na caixa de diálogo para limpar os adesivos"
+},
+"clearStickersDialogSubheading": "Você deseja remover todos os acessórios da tela?",
+"@clearStickersDialogSubheading": {
+    "description": "Subtítulo exibido na caixa de diálogo para limpar os adesivos"
+},
+"clearStickersDialogCancelButtonText": "Não, me leve de volta",
+"@clearStickersDialogCancelButtonText": {
+    "description": "Texto do botão de cancelar exibido na caixa de diálogo para limpar os adesivos"
+},
+"clearStickersDialogConfirmButtonText": "Sim, limpar todos os acessórios",
+"@clearStickersDialogConfirmButtonText": {
+    "description": "Texto do botão de confirmar exibido na caixa de diálogo para limpar os adesivos"
+},
+"propsReminderText": "Adicione alguns acessórios",
+"@propsReminderText": {
+    "description": "Texto de ajuda para adicionar acessórios"
+},
+"stickersNextConfirmationHeading": "Pronto para ver a foto final?",
+"@stickersNextConfirmationHeading": {
+    "description": "Título exibido na confirmação quando o usuário clica no botão de próximo"
+},
+"stickersNextConfirmationSubheading": "Uma vez que você saia desta tela, você não poderá fazer nenhuma alteração",
+"@stickersNextConfirmationSubheading": {
+    "description": "Subtítulo exibido na confirmação quando o usuário clica no botão de próximo"
+},
+"stickersNextConfirmationCancelButtonText": "Não, ainda estou criando",
+"@stickersNextConfirmationCancelButtonText": {
+    "description": "Texto do botão de cancelar exibido na confirmação quando o usuário clica no botão de próximo"
+},
+"stickersNextConfirmationConfirmButtonText": "Sim, me mostre",
+"@stickersNextConfirmationConfirmButtonText": {
+    "description": "Texto do botão de confirmar exibido na confirmação quando o usuário clica no botão de próximo"
+},
+"stickersRetakeConfirmationHeading": "Você tem certeza?",
+"@stickersRetakeConfirmationHeading": {
+    "description": "Título exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"stickersRetakeConfirmationSubheading": "Tirar a foto novamente removerá quaisquer acessórios que você adicionou",
+"@stickersRetakeConfirmationSubheading": {
+    "description": "Subtítulo exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"stickersRetakeConfirmationCancelButtonText": "Não, fique aqui",
+"@stickersRetakeConfirmationCancelButtonText": {
+    "description": "Texto do botão de cancelar exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"stickersRetakeConfirmationConfirmButtonText": "Sim, tirar a foto novamente",
+"@stickersRetakeConfirmationConfirmButtonText": {
+    "description": "Texto do botão de confirmar exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"shareRetakeConfirmationHeading": "Pronto para tirar uma nova foto?",
+"@shareRetakeConfirmationHeading": {
+    "description": "Título exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"shareRetakeConfirmationSubheading": "Lembre-se de baixar ou compartilhar esta primeiro",
+"@shareRetakeConfirmationSubheading": {
+    "description": "Subtítulo exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"shareRetakeConfirmationCancelButtonText": "Não, fique aqui",
+"@shareRetakeConfirmationCancelButtonText": {
+    "description": "Texto do botão de cancelar exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"shareRetakeConfirmationConfirmButtonText": "Sim, tirar a foto novamente",
+"@shareRetakeConfirmationConfirmButtonText": {
+    "description": "Texto do botão de confirmar exibido na confirmação quando o usuário clica no botão de refazer"
+},
+"shutterButtonLabelText": "Tirar foto",
+"@shutterButtonLabelText": {
+    "description": "Rótulo semântico para o botão de obturador usado para tirar uma foto"
+},
+"stickersNextButtonLabelText": "Criar foto final",
+"@stickersNextButtonLabelText": {
+    "description": "Rótulo semântico para o botão de próximo usado para prosseguir para a página de compartilhamento"
+},
+"dashButtonLabelText": "Adicionar amigo Dash",
+"@dashButtonLabelText": {
+    "description": "Rótulo semântico para o botão do personagem Dash"
+},
+"sparkyButtonLabelText": "Adicionar amigo Sparky",
+"@sparkyButtonLabelText": {
+    "description": "Rótulo semântico para o botão do personagem Sparky"
+},
+"dinoButtonLabelText": "Adicionar amigo Dino",
+"@dinoButtonLabelText": {
+    "description": "Rótulo semântico para o botão do personagem Dino"
+},
+"androidButtonLabelText": "Adicionar amigo Android Jetpack",
+"@androidButtonLabelText": {
+    "description": "Rótulo semântico para o botão do personagem Android Jetpack"
+},
+"addStickersButtonLabelText": "Adicionar acessórios",
+"@addStickersButtonLabelText": {
+    "description": "Rótulo semântico para o botão de adicionar acessórios"
+},
+"retakePhotoButtonLabelText": "Tirar a foto novamente",
+"@retakePhotoButtonLabelText": {
+    "description": "Rótulo semântico para o botão de tirar a foto novamente"
+},
+"clearAllStickersButtonLabelText": "Limpar todos os acessórios",
+"@clearAllStickersButtonLabelText": {
+    "description": "Rótulo semântico para o botão de limpar todos os adesivos"
+}
+
+}

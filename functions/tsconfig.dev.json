@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": false
+  },
+  "include": [".eslintrc.js"],
+  "quotes": "double"
+}
